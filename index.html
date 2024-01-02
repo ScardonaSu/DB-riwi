@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador Riwi </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <h1>Buscador Estudiantes Riwi</h1>
+
+    <div class="contenedor">
+
+        
+
+        <form id="buscador">
+            <div class="row">
+                <div class="three columns">
+                    <label for="genero">Genero</label>
+                    <select class="u-full-width" id="genero">
+                        <option value="">Seleccione</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="colores">Color</label>
+                    <select class="u-full-width" id="colores">
+                        <option value="">Seleccione</option>
+                        <option value="Audi">Rojo</option>
+                        <option value="Audi">Negro</option>
+                        <option value="Audi">Verde</option>
+                        <option value="Audi">Morado</option>
+                        <option value="Audi">Azul</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="minimo">Edad Min</label>
+                    <select class="u-full-width" id="minimo">
+                            <option value="">Seleccione</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                            <option value="45">45</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="maximo">Edad Max</label>
+                    <select class="u-full-width" id="maximo">
+                            <option value="">Seleccione</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                            <option value="45">45</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <label for="mascotas">Mascotas</label>
+                        <select class="u-full-width" id="mascotas">
+                                <option value="">Seleccione</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="generoMusical">Genero Musical</label>
+                        <select class="u-full-width" id="generoMusical">
+                                <option value="">Seleccione</option>
+                                <option value="automatico">Rock</option>
+                                <option value="manual">Electronica</option>
+                                <option value="manual">Pop</option>
+                            </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="color">Hobbies</label>
+                        <select class="u-full-width" id="color">
+                                <option value="">Seleccione</option>
+                                <option value="si">Si</option>
+                                <option value="no">No</option>
+        on>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <h1>Resultados</h1>
+        <div class="contenedor-ppl" >
+            
+            <div class="card-container" id="resultado">
+
+            </div>
+            
+
+        </div>
+    </div>
+
+    <a class="sitio-web" href="https://www.codigoconjuan.com" rel="nofollow noopener noreferrer" >Riwi</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
