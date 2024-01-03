@@ -21,8 +21,8 @@ const datosBusqueda = {
 
     genero: '',
     color: '',
-    minima: '',
-    maxima: '',
+    minimo: '',
+    maximo: '',
     mascotas: '',
     generoMusical: '',
     hobby: ''
@@ -46,21 +46,54 @@ genero.addEventListener('change', (e)=> {
 
 })
 
+color.addEventListener('change', (e)=> {
+
+    datosBusqueda.color = e.target.value
+
+    filtrarEstudiante()
+})
+
+minimo.addEventListener('change', (e)=> {
+
+    datosBusqueda.minimo = e.target.value
+
+    console.log(datosBusqueda);
+
+    filtrarEstudiante()
+})
+maximo.addEventListener('change', (e)=> {
+
+    datosBusqueda.maximo = e.target.value
+
+    filtrarEstudiante()
+})
+
+mascotas.addEventListener('change', (e)=> {
+
+    datosBusqueda.mascotas = e.target.value
+
+    filtrarEstudiante()
+})
+
 
 //Funcion que filtra en base a la busqueda
 
 function filtrarEstudiante() {
     
-    const resultado = baseDatos.filter(filtrarGenero)
+    const resultado = baseDatos.filter(filtrarGenero).filter(filtrarColor).filter(filtrarMinimo).filter(filtrarMaximo).filter(filtrarMascota)
 
-    mostarData(resultado)
-/*     if(resultado.length){
+
+    if(resultado.length){
+        mostarData(resultado)
     }else{
         noResultado()
-    } */
+    }
 
 
 }
+
+
+
 
 //Funciones de filtrado
 function filtrarGenero(data) {
@@ -73,6 +106,52 @@ function filtrarGenero(data) {
     return data
 }
 
+function filtrarColor(data) {
+
+    const {color} = datosBusqueda
+
+    if (color) {
+
+        return data.color === color
+    }
+    return data
+}
+
+function filtrarMinimo(data) {
+    const {minimo} = datosBusqueda
+
+    if (minimo){
+        return data.edad >= minimo
+    }
+    return  data
+}
+
+function filtrarMaximo(data) {
+
+    const {maximo} = datosBusqueda
+
+
+    if (maximo){
+        return data.edad <= maximo
+    }
+    return  data
+
+}
+function filtrarMascota(data) {
+
+    const {mascotas} = datosBusqueda
+
+    if (mascotas){
+        return data.mascotas === mascotas
+    }
+    return  data
+
+}
+
+filtrarMascota()
+
+
+
 function noResultado() {
 
     limpiarHTML()
@@ -80,7 +159,7 @@ function noResultado() {
     const noREsultado = document.createElement('div')
     noREsultado.classList.add('alerta', 'error')
     noREsultado.textContent = 'No hay resultados, Intenta con otra busqueda'
-    resutlado.appendChild(noREsultado)
+    resultado.appendChild(noREsultado)
 }
 
 
@@ -176,5 +255,19 @@ function limpiarHTML() {
         resultado.removeChild(resultado.firstChild)
     }
 }
+
+
+function colores (micolor) {
+
+    const resultadoColor = baseDatos.filter(data => data.color === micolor)
+
+    if (resultadoColor === 'Negro') {
+
+        console.log('Aqui Negro');
+    }else{
+        console.log('No negro');
+    }
+}
+
 
 
