@@ -49,6 +49,8 @@ genero.addEventListener('change', (e)=> {
 color.addEventListener('change', (e)=> {
 
     datosBusqueda.color = e.target.value
+    
+    console.log(datosBusqueda);
 
     filtrarEstudiante()
 })
@@ -56,8 +58,6 @@ color.addEventListener('change', (e)=> {
 minimo.addEventListener('change', (e)=> {
 
     datosBusqueda.minimo = e.target.value
-
-    console.log(datosBusqueda);
 
     filtrarEstudiante()
 })
@@ -75,12 +75,18 @@ mascotas.addEventListener('change', (e)=> {
     filtrarEstudiante()
 })
 
+generoMusical.addEventListener('change', (e)=>{
+    datosBusqueda.generoMusical = e.target.value
+
+    filtrarEstudiante()
+})
+
 
 //Funcion que filtra en base a la busqueda
 
 function filtrarEstudiante() {
     
-    const resultado = baseDatos.filter(filtrarGenero).filter(filtrarColor).filter(filtrarMinimo).filter(filtrarMaximo).filter(filtrarMascota)
+    const resultado = baseDatos.filter(filtrarGenero).filter(filtrarColor).filter(filtrarMinimo).filter(filtrarMaximo).filter(filtrarMascota).filter(filtrarGeneroMusical)
 
 
     if(resultado.length){
@@ -89,15 +95,12 @@ function filtrarEstudiante() {
         noResultado()
     }
 
-
 }
-
-
 
 
 //Funciones de filtrado
 function filtrarGenero(data) {
-    
+
     const {genero} = datosBusqueda
 
     if (genero) {
@@ -110,11 +113,14 @@ function filtrarColor(data) {
 
     const {color} = datosBusqueda
 
-    if (color) {
 
-        return data.color === color
+    if (color){
+        return data.color == color
     }
-    return data
+    return  data
+
+
+
 }
 
 function filtrarMinimo(data) {
@@ -148,7 +154,21 @@ function filtrarMascota(data) {
 
 }
 
-filtrarMascota()
+function filtrarGeneroMusical(data) {
+
+    console.log(data.gustoMusical)
+
+
+    const {generoMusical} = datosBusqueda
+
+
+    if (generoMusical){
+        return data.gustoMusical == generoMusical
+    }
+    return  data
+}
+
+
 
 
 
@@ -222,7 +242,7 @@ function mostarData(baseDatos) {
 
         const personalColor = document.createElement('p')
         personalColor.classList.add('textLeft', )
-        personalColor.textContent = `Mascotas: ${ color }`
+        personalColor.textContent = `Color: ${ color }`
 
     /*  const personalMovie = document.createElement('p')
         personalMovie.classList.add('textLeft')

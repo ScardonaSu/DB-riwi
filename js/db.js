@@ -14,7 +14,7 @@ const baseDatos = [
         descripcion: "Por que si, suena bien",
       },
     ],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: ["Beetle Juice"],
   },
@@ -34,7 +34,7 @@ const baseDatos = [
     camidaFavorita: ["Sancocho"],
     gustoMusical: ["Rock"],
     cancionFavorita: "Chop Suey",
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -55,12 +55,12 @@ const baseDatos = [
         foto: "no",
       },
     ],
-    hobbies: ["Pelicula porno", "Leer", "Esuchar musica", "Jugar", "Dormir"],
+    hobbies: ["Leer", "Esuchar musica", "Jugar", "Dormir"],
     color: ["Negro", "Rojo"],
     camidaFavorita: ["Mexicana", "Italiana", "Hamburgesa"],
     gustoMusical: ["Electronica"],
     cancionFavorita: ["Some one like you"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -84,9 +84,9 @@ const baseDatos = [
     hobbies: ["Gym", "Footbol"],
     color: ["Azul"],
     camidaFavorita: ["Pastas", "Pizza"],
-    gustoMusical: ["Trap", "Rap", "Reggeton", "Crossover"],
+    gustoMusical: [ "Reggeton"],
     cancionFavorita: ["Tuyo de mora"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -112,7 +112,7 @@ const baseDatos = [
     camidaFavorita: ["Costillas BBQ"],
     gustoMusical: ["Rock", "Metal"],
     cancionFavorita: ["Trooperl Airoman"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -134,11 +134,11 @@ const baseDatos = [
       },
     ],
     hobbies: ["Modelaje", "Deporte", "Video Juegos"],
-    color: ["Rojo"],
+    color: [ "Negro", "Rojo"],
     camidaFavorita: ["Pastas"],
-    gustoMusical: ["Rock", "Pop", "Regge", "Hip Hop"],
+    gustoMusical: ["Rock", "Pop", "Reggeton" ],
     cancionFavorita: ["Love is a butterfly"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -162,9 +162,9 @@ const baseDatos = [
     hobbies: ["Modelar", "Cocinar", "Viajar"],
     color: ["Rojo"],
     camidaFavorita: ["Salchipapas", "Tacos", "Cordon Blue"],
-    gustoMusical: ["Salsa", "Rap"],
+    gustoMusical: ["Salsa"],
     cancionFavorita: ["Sol de Wiliam"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
@@ -189,7 +189,7 @@ const baseDatos = [
     camidaFavorita: ["Bandeja paisa"],
     gustoMusical: ["Salsa"],
     cancionFavorita: ["Asi eres tu mi vida"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -215,7 +215,7 @@ const baseDatos = [
     camidaFavorita: ["Frijoles"],
     gustoMusical: ["Pop"],
     cancionFavorita: ["Billie Jean"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -236,12 +236,12 @@ const baseDatos = [
         foto: "NO",
       },
     ],
-    hobbies: ["Patinaje", "Guitarra electica", "Artes maricales"],
+    hobbies: ["Patinaje", "Guitarra electrica", "Artes marciales"],
     color: ["Esmeralda"],
     camidaFavorita: ["Frijoles"],
     gustoMusical: ["Rock", "Salsa"],
     cancionFavorita: ["Rooster de alice in chains"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -265,9 +265,9 @@ const baseDatos = [
     hobbies: ["Footbol"],
     color: ["Rojo"],
     camidaFavorita: ["Pastas"],
-    gustoMusical: ["Metalica"],
+    gustoMusical: ["Rock"],
     cancionFavorita: ["Drain You"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -291,9 +291,9 @@ const baseDatos = [
     hobbies: ["Fotografia"],
     color: ["Negro"],
     camidaFavorita: ["Papas fritas"],
-    gustoMusical: ["Rock alternativo"],
+    gustoMusical: ["Rock"],
     cancionFavorita: ["Love lost"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
@@ -318,7 +318,7 @@ const baseDatos = [
     camidaFavorita: ["Comida chatarra"],
     gustoMusical: ["Salsa"],
     cancionFavorita: ["Cuenta regresiva"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -344,7 +344,7 @@ const baseDatos = [
     camidaFavorita: ["Hamburguesa"],
     gustoMusical: ["Rock"],
     cancionFavorita: ["Still of the nigth"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
@@ -369,7 +369,7 @@ const baseDatos = [
     camidaFavorita: ["pastas"],
     gustoMusical: ["pop"],
     cancionFavorita: ["human"],
-    mascotas: ["Perro ", "Gato"],
+    mascotas: "Gato ",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -393,10 +393,10 @@ const baseDatos = [
     ],
     hobbies: ["Ninguno antes jugaba en linea"],
     color: ["Negro"],
-    camidaFavorita: ["Masamorra"],
-    gustoMusical: ["Rock alternativo"],
+    camidaFavorita: ["Mazamorra"],
+    gustoMusical: ["Rock"],
     cancionFavorita: ["dear agoni"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -420,9 +420,9 @@ const baseDatos = [
     hobbies: ["Videojuegos"],
     color: ["Negro"],
     camidaFavorita: ["Mexicana"],
-    gustoMusical: ["Salsa y Rock"],
+    gustoMusical: ["Salsa", "Rock"],
     cancionFavorita: ["Do i wanna know"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -446,9 +446,9 @@ const baseDatos = [
     hobbies: ["Ejercicio, estudiar"],
     color: ["Negro"],
     camidaFavorita: ["Bandeja paisa"],
-    gustoMusical: ["Rap"],
+    gustoMusical: ["Reggeton"],
     cancionFavorita: ["Gosebumps"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -474,7 +474,7 @@ const baseDatos = [
     camidaFavorita: ["Pizza"],
     gustoMusical: ["Reggeton"],
     cancionFavorita: ["Somos de calle"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -494,12 +494,12 @@ const baseDatos = [
         foto: "no",
       },
     ],
-    hobbies: ["Cubos de rubick"],
+    hobbies: ["Cubos de rubik"],
     color: ["Morado"],
     camidaFavorita: ["Hamburguesa"],
     gustoMusical: ["Rock"],
     cancionFavorita: ["Ya lo vea venir"],
-    mascotas: ["Perro", "Otro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -523,9 +523,9 @@ const baseDatos = [
     hobbies: ["Gym"],
     color: ["Rojo"],
     camidaFavorita: ["Pizza"],
-    gustoMusical: ["Trap"],
+    gustoMusical: ["Reggeton"],
     cancionFavorita: ["Sould out dates"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -549,9 +549,9 @@ const baseDatos = [
     hobbies: ["Caminar"],
     color: ["Verde"],
     camidaFavorita: ["Bandeja Paisa"],
-    gustoMusical: ["Rap"],
+    gustoMusical: ["Reggeton"],
     cancionFavorita: ["Aveces"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -575,9 +575,9 @@ const baseDatos = [
     hobbies: ["Dormir", "Pintar", "Comer"],
     color: ["Turquesa"],
     camidaFavorita: ["Mexicana"],
-    gustoMusical: ["Rock", "Rap", "Punk"],
+    gustoMusical: ["Rock", "Rap"],
     cancionFavorita: ["Rapp Snitch Knisshes"],
-    mascotas: ["Perro"],
+    mascotas: "Perro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -603,7 +603,7 @@ const baseDatos = [
     camidaFavorita: ["Pizza"],
     gustoMusical: ["Pop"],
     cancionFavorita: ["Dance for my"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
@@ -629,7 +629,7 @@ const baseDatos = [
     camidaFavorita: ["Pollo Frisby"],
     gustoMusical: ["Rock"],
     cancionFavorita: ["Nothing else matters"],
-    mascotas: ["Gato"],
+    mascotas: "Gato",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -650,12 +650,12 @@ const baseDatos = [
         foto: "No",
       },
     ],
-    hobbies: ["Jugar Play", "Footbol"],
+    hobbies: ["Jugar Play", "Futbol"],
     color: ["Azul"],
     camidaFavorita: ["Perras Calientes"],
     gustoMusical: ["Vallenato"],
     cancionFavorita: ["Cama y mesa"],
-    mascotas: ["No"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -681,7 +681,7 @@ const baseDatos = [
     camidaFavorita: ["Pastas"],
     gustoMusical: ["Rock", "Electronica"],
     cancionFavorita: ["Fire storn"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -707,7 +707,7 @@ const baseDatos = [
     camidaFavorita: ["Costilla BBQ"],
     gustoMusical: ["Pop"],
     cancionFavorita: ["Cuando la vi"],
-    mascotas: ["Perro", "Gato"],
+    mascotas: "Perro",
     image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
@@ -732,7 +732,7 @@ const baseDatos = [
     camidaFavorita: ["Frijoles"],
     gustoMusical: ["Salsa", "Rock"],
     cancionFavorita: ["One Mettalica"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -758,7 +758,7 @@ const baseDatos = [
     camidaFavorita: ["Pizza"],
     gustoMusical: ["Rock"],
     cancionFavorita: ["Lamento Boliviano"],
-    mascotas: ["Otro"],
+    mascotas: "Otro",
     image:
       "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
@@ -769,54 +769,3 @@ const baseDatos = [
     ],
   },
 ];
-
-
-
-
-
-
-/* 
-            //Create Card
-            let card = document.createElement("div");
-            //Card should have category and should stay hidden initially
-            card.classList.add("card", person.category);
-            //image div
-            let imgContainer = document.createElement("div");
-            imgContainer.classList.add("image-container");
-            //img tag
-            let imagePerson = document.createElement("img");
-            imagePerson.classList.add('img-card')
-            imagePerson.setAttribute("src", image);
-            imgContainer.appendChild(imagePerson);
-            card.appendChild(imgContainer);
-            //container
-            let container = document.createElement("div");
-            container.classList.add("container");
-            //studient name
-            let name = document.createElement("h5");
-            name.classList.add("nombre-estudiante");
-            name.innerText = nombre.toUpperCase();
-            container.appendChild(name);
-            //genero
-            let sexo = document.createElement("h6");
-            genero.innerText = genero;
-            container.appendChild(sexo);
-            //Hobby
-            let hobby = document.createElement('h5')
-            hobby.innerText = hobbies;
-            container.appendChild(hobby)
-            //Comida favorita
-            let comida = document.createElement('h5')
-            comida.innerText = camidaFavorita;
-            container.appendChild(comida)
-            //age
-            const age = document.createElement('h5')
-            const edadTexto = document.createElement('P')
-            edadTexto.textContent = 'Edad'
-            age.innerText = age
-            age.classList.add("color-text");
-            
-            container.appendChild(age)
-
-            card.appendChild(container);
-            document.getElementById("resultado").appendChild(card); */
